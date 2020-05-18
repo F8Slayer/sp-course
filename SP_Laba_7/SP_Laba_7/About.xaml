@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="SP_Laba_7.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SP_Laba_7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationForegroundThemeBrush}">
+    <Grid>
+        <HyperlinkButton FontSize="30" Content="Click to go back" 
+                 Click="HyperlinkButton_Click" Background="{x:Null}" Foreground="#FF00E8FF" Margin="75,69,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="144" Margin="572,250,0,0" VerticalAlignment="Top" Width="144" Source="https://i.pinimg.com/originals/2e/04/62/2e046280eed208eb4ee944e650736511.png" Tapped="Image_Tapped"/>
+        <Image HorizontalAlignment="Left" Height="288" Margin="355,425,0,0" VerticalAlignment="Top" Width="300" Source="https://www.bossbrackets.com/Resources/arrow.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.RowSpan="5">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-27.239"/>
+            </Image.RenderTransform>
+        </Image>
+
+
+        <TextBlock FontSize="50" HorizontalAlignment="Left" Margin="75,209,0,0" Text="Group: 525 - st1" TextWrapping="Wrap" VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF09C0F7"/>
+                    <GradientStop Color="#FFD409F7" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock  FontSize="50" HorizontalAlignment="Left" Margin="75,127,0,0" Text="Author: Linnik Alex a.k.a FateSlayer" TextWrapping="Wrap" VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF09C0F7"/>
+                    <GradientStop Color="#FFD409F7" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock  FontSize="50" HorizontalAlignment="Left" Margin="75,289,0,0" Text="INST: alexander.linnik" TextWrapping="Wrap" VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF09C0F7"/>
+                    <GradientStop Color="#FFD409F7" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock FontSize="50" HorizontalAlignment="Left" Margin="221,500,0,0" Text="Press" TextWrapping="Wrap" VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF09C0F7"/>
+                    <GradientStop Color="#FFD409F7" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+    </Grid>
+</Page>
